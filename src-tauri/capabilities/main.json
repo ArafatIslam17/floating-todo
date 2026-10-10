@@ -1,0 +1,26 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "main-window",
+  "description": "Minimum permissions for the widget window: event listening, window dragging/resizing, and the app's own commands.",
+  "windows": ["main"],
+  "permissions": [
+    "core:event:allow-listen",
+    "core:event:allow-unlisten",
+    "core:window:allow-start-dragging",
+    "core:window:allow-start-resize-dragging",
+    "allow-get-snapshot",
+    "allow-create-task",
+    "allow-update-task",
+    "allow-set-task-completed",
+    "allow-delete-task",
+    "allow-restore-task",
+    "allow-snooze-alert",
+    "allow-dismiss-alert",
+    "allow-update-settings",
+    "allow-test-sound",
+    "allow-set-compact",
+    "allow-hide-widget",
+    "allow-quit-app",
+    "allow-retry-startup"
+  ]
+}
